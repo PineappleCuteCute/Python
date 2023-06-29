@@ -1,0 +1,22 @@
+Thứ tự     Cân nặng      Chiều cao     Huyết áp     Vận động       Bệnh tim
+1          nhẹ           trung bình    trung bình   nhiều          không
+2          nặng          thấp          cao          ít             có
+3          nhẹ           thấp          cao          ít             có
+4          nặng          cao           cao          trung bình     không
+5          nhẹ           cao           cao          nhiều          không
+6          trung bình    thấp          trung bình   nhiều          không
+7          trung bình    trung bình    trung bình   ít             không
+8          nặng          thấp          thấp         nhiều          có
+9          nhẹ           cao           trung bình   ít             ?
+10         nhẹ           cao           trung bình   nhiều          ?
+
+
+Quy ước
+Name                Value
+nhẹ                 1
+thấp                2
+trung bình          3
+cao                 4
+nặng                5
+ít                  6
+nhiều               7
