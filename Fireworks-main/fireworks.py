@@ -51,7 +51,7 @@ class Firework:
         amount = randint(int(self.min_max_particles.x), int(self.min_max_particles.y))
         for i in range(amount):
             self.particles.append(Particle(self.firework.pos.x, self.firework.pos.y, False, self.colours))
-            pygame.mixer.Channel(0).play(pygame.mixer.Sound('firework.wav'))
+            pygame.mixer.Channel(0).play(pygame.mixer.Sound('/Users/daomanh/Documents/Visual Studio Code/Python/Fireworks-main/firework.wav'))
 
     def show(self, win):
         # Hiển thị pháo hoa
@@ -89,7 +89,7 @@ class Particle:
             self.colour = colour
             for i in range(5):
                 self.trails.append(Trail(i, self.size, True))
-                pygame.mixer.Channel(1).play(pygame.mixer.Sound('liftoff.wav'))
+                pygame.mixer.Channel(1).play(pygame.mixer.Sound('/Users/daomanh/Documents/Visual Studio Code/Python/Fireworks-main/liftoff.wav'))
         else:
             self.vel = vector(uniform(-1, 1), uniform(-1, 1))
             self.vel.x *= 30
