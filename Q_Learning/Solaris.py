@@ -26,6 +26,7 @@ class SolarisEnv(gym.Env):
         info = {}
 
         return obs, reward, done, info
+    
 
     def reset(self):
         # reset game state
