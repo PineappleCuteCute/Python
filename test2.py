@@ -1,3 +1,4 @@
+#Thành Mạnh yêu Ngọc Anh
 import pygame
 import random
 
