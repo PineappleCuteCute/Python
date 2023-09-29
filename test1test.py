@@ -6,6 +6,16 @@
 # b = int(input('Vui long nhap so b '))
 # print('a + b = {}'.format(a + b))
 
-a = 20 // 4
-b = 5
-print(a != b)
+# a = 20 // 4
+# b = 5
+# print(a != b)
+# i = 1
+# while i < 11:
+#     print(i)
+#     # i += 1
+
+i = 0
+while i < 11:
+    i += 2
+    print(i)
+    
