@@ -1,3 +1,6 @@
+#Đào Thành Mạnh đẹp trai
+
+
 from sklearn import tree
 
 #Bước 1: thu thập dữ liệu
